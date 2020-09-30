@@ -9,15 +9,18 @@ import { SeniorExpComponent } from './home/senior-exp/senior-exp.component';
 import {CarouselModule} from 'ngx-bootstrap/carousel';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { ContactComponent } from './home/contact/contact.component';
+import { RecordsComponent } from './records/records.component';
+import {TabsModule} from 'ngx-bootstrap/tabs';
 
 @NgModule({
-  declarations: [HomeComponent, IntroComponent, IntroVideoComponent, IntroTwoComponent, SeniorExpComponent, ContactComponent],
-    imports: [
-        CommonModule,
-        SharedModule,
-        CarouselModule,
-        FontAwesomeModule
-    ]
+  declarations: [HomeComponent, IntroComponent, IntroVideoComponent, IntroTwoComponent, SeniorExpComponent, ContactComponent, RecordsComponent],
+  imports: [
+    CommonModule,
+    SharedModule,
+    CarouselModule,
+    FontAwesomeModule,
+    TabsModule
+  ]
 })
 export class PagesModule {
 }
