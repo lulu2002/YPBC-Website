@@ -1,0 +1,28 @@
+@import "~bootstrap/scss/bootstrap";
+
+section {
+  background-color: #323232;
+  color: white;
+  height: 15vh;
+  padding: 0;
+}
+
+fa-icon {
+  @extend .m-2;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: white;
+
+  &:hover, &:active, &:link, &:visited {
+    color: white;
+  }
+}
+
+a:hover {
+  color: white;
+}

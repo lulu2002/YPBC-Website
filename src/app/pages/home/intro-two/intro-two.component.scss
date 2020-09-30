@@ -1,0 +1,11 @@
+@import "~src/styles";
+@import "~bootstrap/scss/bootstrap";
+
+.no-pad {
+  padding: 0;
+}
+
+.div-img {
+  padding: 0;
+  @extend .p-1;
+}

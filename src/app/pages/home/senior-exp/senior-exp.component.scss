@@ -1,0 +1,13 @@
+@import "~src/styles";
+@import "~bootstrap/scss/bootstrap";
+
+
+.item-image {
+  @extend .div-img;
+  filter: brightness(0.3);
+}
+
+section {
+  @extend .py-0;
+  height: 80vh;
+}
