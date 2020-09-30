@@ -1,0 +1,15 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.navbar-main {
+  @extend .navbar,
+  .navbar-expand-lg,
+  .navbar-dark,
+  .bg-dark,
+  .px-md-5,
+  .py-sm-3;
+
+}
+
+.item {
+  @extend .nav-item, .nav-link;
+}

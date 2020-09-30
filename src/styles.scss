@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/variables";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+section {
+  @extend .py-5;
+  height: 80vh;
+
+  @include media-breakpoint-down(sm) {
+    height: auto;
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+}

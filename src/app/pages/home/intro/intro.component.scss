@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
+.col-md-8, .col-md-4 {
+  padding: 0;
+}
+
+.div-img {
+  @extend .pb-1, .pb-md-0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden
+}
+
+.img-sm {
+  @extend .div-img, .col-md-4;
+}
+
+.img-lg {
+  @extend .div-img, .col-md-8;
+}
+
+//todo 大小不會隨著 div 高度條小而變改 (第一排會，第二排不會)
+.img-row {
+  @extend .row, .h-50;
+}
