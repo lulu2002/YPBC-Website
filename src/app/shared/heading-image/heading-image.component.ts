@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-heading-image',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeadingImageComponent implements OnInit {
 
-  constructor() { }
+  @Input() imgPath: string;
 
   ngOnInit(): void {
+  }
+
+  getBgStyle(): string {
+    return `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('${this.imgPath}')`;
   }
 
 }

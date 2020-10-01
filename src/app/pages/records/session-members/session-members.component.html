@@ -1,0 +1,29 @@
+<div *ngFor="let session of sessions">
+  <p>隊長:
+    <app-person [person]="session.captain"></app-person>
+  </p>
+  <p>副隊長:
+    <app-person [person]="session.viceCaptain"></app-person>
+  </p>
+  <p>社長:
+    <app-person [person]="session.director"></app-person>
+  </p>
+  <p>副社長:
+    <app-person [person]="session.viceDirector"></app-person>
+  </p>
+  <p>公關:
+    <app-person [person]="session.publicRelations"></app-person>
+  </p>
+  <p>美宣:
+    <app-person [person]="session.artisticDesign"></app-person>
+  </p>
+  <p>活動:
+    <app-person [person]="session.eventPlanning"></app-person>
+  </p>
+  <p>場務:
+    <app-person [person]="session.arenaManager"></app-person>
+  </p>
+  <p>網管:
+    <app-person [person]="session.networkManager"></app-person>
+  </p>
+</div>

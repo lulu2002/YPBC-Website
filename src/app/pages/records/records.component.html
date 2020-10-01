@@ -1,9 +1,12 @@
+<app-heading-image imgPath="assets/images/run.jpg">
+  <h1>歷屆戰績</h1>
+</app-heading-image>
 <section class="container">
-  <div class="row justify-content-center w-100">
-    <tabset class="w-100 justify-content-center">
+  <div class="row justify-content-center">
+    <tabset class="w-100">
       <tab *ngFor="let key of map.keys()" heading="第 {{key}} 屆">
-        <div class="row py-3 align-items-center" *ngFor="let record of map.get(key)">
-          <img class="col-md-4 record-img" src="{{record.img}}">
+        <div class="row py-3 mx-0 align-items-center justify-content-center" *ngFor="let record of map.get(key)">
+          <img class="col-md-6 col-lg-4 record-img" src="{{record.img}}">
           <div class="col-md-6 pt-3 pt-lg-0">
             <h1>{{record.name}} - {{record.place}}</h1>
             <p>{{record.description}}</p>

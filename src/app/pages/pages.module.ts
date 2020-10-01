@@ -11,9 +11,11 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { ContactComponent } from './home/contact/contact.component';
 import { RecordsComponent } from './records/records.component';
 import {TabsModule} from 'ngx-bootstrap/tabs';
+import { SessionMembersComponent } from './records/session-members/session-members.component';
+import { FeaturesComponent } from './home/features/features.component';
 
 @NgModule({
-  declarations: [HomeComponent, IntroComponent, IntroVideoComponent, IntroTwoComponent, SeniorExpComponent, ContactComponent, RecordsComponent],
+  declarations: [HomeComponent, IntroComponent, IntroVideoComponent, IntroTwoComponent, SeniorExpComponent, ContactComponent, RecordsComponent, SessionMembersComponent, FeaturesComponent],
   imports: [
     CommonModule,
     SharedModule,
