@@ -15,14 +15,10 @@ p {
   margin: 0;
 }
 
-a {
+.icon-link {
   color: white;
 
   &:hover, &:active, &:link, &:visited {
     color: white;
   }
-}
-
-a:hover {
-  color: white;
 }
