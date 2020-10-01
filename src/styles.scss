@@ -16,6 +16,10 @@ section {
   padding: 3rem 0;
 }
 
+.mg-x {
+  @extend .mx-3, .mx-sm-auto;
+}
+
 
 @include media-breakpoint-down(sm) {
   section {
