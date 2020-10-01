@@ -1,0 +1,67 @@
+[
+  {
+    "number": 6,
+    "captain": {
+      "name": "蔡孟軒",
+      "link": "#",
+      "avatar": ""
+    },
+    "viceCaptain": {
+      "name": "王詡然",
+      "link": "#",
+      "avatar": ""
+    },
+    "director": {
+      "name": "翁紹暘",
+      "link": "#",
+      "avatar": ""
+    },
+    "viceDirector": {
+      "name": "黃冠蓁",
+      "link": "#",
+      "avatar": ""
+    },
+    "publicRelations": {
+      "name": "楊翔順",
+      "link": "#",
+      "avatar": ""
+    },
+    "eventPlanning": {
+      "name": "梁鴻均",
+      "link": "#",
+      "avatar": ""
+    },
+    "artisticDesign": {
+      "name": "邱紫緹",
+      "link": "#",
+      "avatar": ""
+    },
+    "arenaManager": {
+      "name": "蔡耀德",
+      "link": "#",
+      "avatar": ""
+    },
+    "networkManager": {
+      "name": "陳茂凱",
+      "link": "#",
+      "avatar": ""
+    },
+    "members": [
+      {
+        "name": "Member1",
+        "link": "#",
+        "avatar": ""
+      },
+      {
+        "name": "Member2",
+        "link": "#",
+        "avatar": ""
+      },
+      {
+        "name": "Member3",
+        "link": "#",
+        "avatar": ""
+      }
+    ]
+  }
+]
